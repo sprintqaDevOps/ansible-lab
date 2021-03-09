@@ -12,6 +12,6 @@
       wait: yes
       group_id:
         - devops
-      instance_tags:
-        - Environment: web
-        - Name: clientNode5
+      tags:
+        Environment: web
+        Name: clientNode5
