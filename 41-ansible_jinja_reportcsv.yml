@@ -8,7 +8,7 @@
      ec2_instance_facts:
       region: us-east-1
       filters:
-       "tag:day": Monday
+       "tag:Day": Monday
        "tag:Environment": db
        "tag:Environment": web
      register: out
