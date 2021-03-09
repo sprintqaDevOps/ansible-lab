@@ -9,5 +9,4 @@
       image: ami-004deb0918e930a0c
       key_name: laptopPublicKey
       region: us-east-1
-      tags:
-        Environment: web
+      wait: yes
