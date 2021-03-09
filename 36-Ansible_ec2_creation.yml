@@ -10,8 +10,5 @@
       key_name: laptopPublicKey
       region: us-east-1
       wait: yes
-      group_id:
-        - devops
-      tags:
-        Environment: web
-        Name: clientNode5
+      group_id: sg-0b5d04b0e2907b02d
+
